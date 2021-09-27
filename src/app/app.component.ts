@@ -31,6 +31,10 @@ export class AppComponent {
     });
   }
 
+  remove(item){
+    this.allItems.splice(this.allItems.indexOf(item), 1)
+  }
+
 }
 
 
